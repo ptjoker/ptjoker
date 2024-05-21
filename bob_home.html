@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Bob's Auto Parts</title>
+      <link rel="stylesheet" href="bob_layout.css">
+   </head>
+   <body>
+    <form>
+      <fieldset>
+
+		 <legend>Customer FeedBack</legend>
+
+		 <h1>Please complete this form to submit your feedback</h1>
+		 <br>
+		 <label for="NameBasis1">Mr.</label>
+		 <input type="radio" name="usrBasis" id="NameBasis1" value="Mr."/>
+         <label for="NameBasis2">Mrs.</label>
+		 <input type="radio" name="usrBasis" id="NameBasis2" value="Mrs."/>
+		 <label for="NameBasis3">Ms.</label>
+		 <input type="radio" name="usrBasis" id="NameBasis3" value="Ms."/>
+		 <label for="NameBasis4">Dr.</label>
+		 <input type="radio" name="usrBasis" id="NameBasis4" value="Dr."/>
+         <label for="NameBasis5">Prof.</label>
+		 <input type="radio" name="usrBasis" id="NameBasis5" value="Prof."/>
+		 
+		 <table>
+		    <tr>
+			  <td><label for="usrName">Name</label></td>
+			  <td><input name="userName" type="text" id="usrName"></td>
+			</tr>
+			 <tr>
+			  <td><label for="usrEmail">Email</label></td>
+			  <td><input name="userEmail" type="email" id="usrEmail"></td>
+			</tr>
+		 </table>
+		  
+		 <br>
+		 <label for="usrResp">Select your response</label>
+		 <br>
+		 <br> 
+		 <select id="usrResp" name="userResponse" class="formList">
+		    <option value="Excellent">Excellent</option>   
+		    <option value="Good">Good</option>   
+		    <option value="Okay">Okay</option>   
+		    <option value="Bad">Bad</option>   
+		 </select>
+         <br>
+		 <br>
+		 <label for="usrCom" class="formComment"><b>Comments<b></label>
+         <br>
+		 <br>
+		 <textarea name="userComment" id="usrCom" rows="10" cols="28"></textarea>
+         <br>
+		 <br>
+		 <button onclick="processFeedback()" class="formList">Submit</button>
+	 </fieldset>
+
+   </form>
+  
+  <script src="feedbackScript.js">
+  
+  </script>
+  </body>
+  
+</html>
