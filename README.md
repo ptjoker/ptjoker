@@ -9,7 +9,7 @@
 - Software Engineering Principles
 
 👀 Interested in:
-- Full-Stack Web Development
+- Full-Stack Software Development
 - Backend Development
 - Building scalable applications
 - Open Source Projects
